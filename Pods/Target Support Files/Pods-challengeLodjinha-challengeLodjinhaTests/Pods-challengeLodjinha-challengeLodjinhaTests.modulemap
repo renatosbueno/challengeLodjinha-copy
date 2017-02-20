@@ -1,0 +1,6 @@
+framework module Pods_challengeLodjinha_challengeLodjinhaTests {
+  umbrella header "Pods-challengeLodjinha-challengeLodjinhaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

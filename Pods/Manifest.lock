@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.3.0)
+  - JSONHelper (2.1.0)
+  - Kingfisher (3.4.0)
+  - Nuke (5.0.1)
+  - Nuke-Alamofire-Plugin (2.0):
+    - Alamofire (~> 4.0)
+    - Nuke (~> 5.0)
+  - Spring (1.0.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - JSONHelper (from `https://github.com/isair/JSONHelper`, branch `swift-3.0`)
+  - Kingfisher (~> 3.0)
+  - Nuke
+  - Nuke-Alamofire-Plugin
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  JSONHelper:
+    :branch: swift-3.0
+    :git: https://github.com/isair/JSONHelper
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  JSONHelper:
+    :commit: 5ed10b227de716b77ff2afe19ef2914d5b863882
+    :git: https://github.com/isair/JSONHelper
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  JSONHelper: 684a9ffd73578f370c0a02197319a97e37120124
+  Kingfisher: 5690cfb3d1bddf3a98d679a3a34d0b7294974ed2
+  Nuke: d47030a761bdd0f7589a734a90819d71eda2500d
+  Nuke-Alamofire-Plugin: 5a0c7b3acdfac2f26a81fa46cf153102f54a5ea0
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: ef6695344601e095441d4791c79ffd5f12de1ed5
+
+COCOAPODS: 1.2.0
